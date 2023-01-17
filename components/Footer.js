@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo2 from '../Images/logoV2.jpg';
+import Logo from '../Images/LogoV2.jpg';
 
 export default function Footer() {
 	return (
@@ -9,7 +9,7 @@ export default function Footer() {
 				<Link href="#landing" class="flex items-center mb-4 sm:mb-0">
 					<Image
 						alt="Logo Santa Cruz"
-						src={Logo2}
+						src={Logo}
 						width={125}
 						height={125}
 						style={{
