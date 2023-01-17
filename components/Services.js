@@ -10,11 +10,12 @@ import sale from '../Images/sale.gif';
 export default function Services() {
 	return (
 		<section id="services" class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
 			<div class="container mx-auto">
 				<div class="-mx-4 flex flex-wrap">
 					<div class="w-full px-4">
 						<div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-							<h2 class="text-black mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
+							<h2 class="text-blueNav mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
 								NUESTROS SERVICIOS
 							</h2>
 						</div>

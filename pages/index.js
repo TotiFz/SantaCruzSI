@@ -19,6 +19,7 @@ export default function Home() {
 			<Landing />
 			<About />
 			<Services />
+			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
 			<Contact />
 			<Footer />
 		</div>
