@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Landing from '../components/Landing';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Clients from '../components/Clients';
 
 export default function Home() {
 	return (
@@ -17,11 +18,14 @@ export default function Home() {
 
 			<NavBar />
 			<Landing />
+			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
 			<About />
+			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
 			<Services />
 			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
+			<Clients />
+			<hr class="my-8 border-white sm:mx-auto lg:my-8" />
 			<Contact />
-			<Footer />
 		</div>
 	);
 }

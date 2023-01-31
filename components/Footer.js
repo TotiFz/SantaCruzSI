@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../Images/LogoV2.jpg';
+import Logo2 from '../Images/logoV2.jpg';
 
 export default function Footer() {
 	return (
-		<footer class="p-4 bg-blueNav rounded-lg shadow md:px-6 md:py-8 ">
+		<footer class="p-4 bg-blueNav buttom-0 rounded-lg shadow md:px-6 md:py-8 ">
 			<div class="sm:flex sm:items-center sm:justify-between">
 				<Link href="#landing" class="flex items-center mb-4 sm:mb-0">
 					<Image
 						alt="Logo Santa Cruz"
-						src={Logo}
+						src={Logo2}
 						width={125}
 						height={125}
 						style={{
