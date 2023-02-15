@@ -3,7 +3,7 @@ import aboutImg from '../Images/About.jpg';
 
 export default function About() {
 	return (
-		<div id="about" class="container mx-auto ">
+		<div id="about" class="container mx-auto " data-aos="flip-right" data-aos-duration="1500">
 			<div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 bg-white border-double border-8 border-blueNav rounded-md mt-20">
 				<div class="flex flex-col lg:flex-row justify-between gap-8 ">
 					<div class="w-full lg:w-5/12 flex flex-col justify-center text-white">

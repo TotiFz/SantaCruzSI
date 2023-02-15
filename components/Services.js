@@ -12,7 +12,12 @@ import test from '../Images/test.gif';
 
 export default function Services() {
 	return (
-		<section id="services" class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+		<section
+			id="services"
+			class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+			data-aos="zoom-out-down"
+			data-aos-duration="1000"
+		>
 			<div class="container mx-auto">
 				<div class="-mx-4 flex flex-wrap">
 					<div class="w-full px-4">
